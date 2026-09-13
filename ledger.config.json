@@ -1,0 +1,18 @@
+{
+  "env": "testnet",
+  "ownerDid": "did:t3n:7b3bc07f1edc42fc5044f85104f7bd879a8f2d89",
+  "orgDid": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea",
+  "watchScopes": ["agent-cards"],
+  "watchAgents": [
+    "did:t3n:5957c0a2b1c1b52f94adf51a24338ce8ec76682f",
+    "did:t3n:7faab43505230f804071b6f271580b7d648056d4"
+  ],
+  "budget": {
+    "creditDecimals": 6,
+    "warnAtPercentSpent": 70,
+    "alertAtPercentSpent": 90
+  },
+  "retention": {
+    "keepReportDays": 90
+  }
+}
