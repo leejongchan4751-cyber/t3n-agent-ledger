@@ -1,0 +1,125 @@
+{
+  "runs": 8,
+  "lastSeq": 0,
+  "last": {
+    "at": "2026-09-13T13:30:40.114Z",
+    "env": "testnet",
+    "ownerDid": "did:t3n:7b3bc07f1edc42fc5044f85104f7bd879a8f2d89",
+    "orgDid": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea",
+    "balance": {
+      "available": 19509140193,
+      "reserved": 0,
+      "last_settled_seq_no": 0,
+      "version": 13,
+      "credit_exhausted": false,
+      "storage_deposit": 0
+    },
+    "usageEntries": [],
+    "lastSeq": 0,
+    "scopeWriters": {
+      "agent-cards": {
+        "organisationDid": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea",
+        "scope": "agent-cards",
+        "writers": [
+          "did:t3n:7b3bc07f1edc42fc5044f85104f7bd879a8f2d89"
+        ]
+      }
+    },
+    "agents": {
+      "did:t3n:5957c0a2b1c1b52f94adf51a24338ce8ec76682f": {
+        "agent_uri": "",
+        "registered_at": 1789304859,
+        "updated_at": 1789304859,
+        "owner_eth_address": [
+          89,
+          87,
+          192,
+          162,
+          177,
+          193,
+          181,
+          47,
+          148,
+          173,
+          245,
+          26,
+          36,
+          51,
+          140,
+          232,
+          236,
+          118,
+          104,
+          47
+        ],
+        "owner_did": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea"
+      },
+      "did:t3n:7faab43505230f804071b6f271580b7d648056d4": {
+        "agent_uri": "",
+        "registered_at": 1789304877,
+        "updated_at": 1789304877,
+        "owner_eth_address": [
+          127,
+          170,
+          180,
+          53,
+          5,
+          35,
+          15,
+          128,
+          64,
+          113,
+          182,
+          242,
+          113,
+          88,
+          11,
+          125,
+          100,
+          128,
+          86,
+          212
+        ],
+        "owner_did": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea"
+      }
+    },
+    "errors": []
+  },
+  "budgetBaseline": 19899842629,
+  "lastFindings": [
+    {
+      "kind": "spend",
+      "severity": "info",
+      "message": "이번 주기 지출 110.16 크레딧",
+      "raw": 110159120
+    },
+    {
+      "kind": "reconciliation",
+      "severity": "warn",
+      "message": "지출 110.16 크레딧이 발생했으나 미터링 피드에 대응 항목이 없습니다 — 비용 귀속 불가",
+      "spentRaw": 110159120,
+      "feedEntries": 0
+    }
+  ],
+  "good": {
+    "balance": {
+      "available": 19509140193,
+      "reserved": 0,
+      "last_settled_seq_no": 0,
+      "version": 13,
+      "credit_exhausted": false,
+      "storage_deposit": 0
+    },
+    "balanceAt": "2026-09-13T13:30:40.114Z",
+    "scopeWriters": {
+      "agent-cards": {
+        "organisationDid": "did:t3n:434282fc9397e31f83ed6d04a209d2cc3015c9ea",
+        "scope": "agent-cards",
+        "writers": [
+          "did:t3n:7b3bc07f1edc42fc5044f85104f7bd879a8f2d89"
+        ]
+      }
+    },
+    "scopeWritersAt": "2026-09-13T13:30:40.114Z"
+  }
+}
